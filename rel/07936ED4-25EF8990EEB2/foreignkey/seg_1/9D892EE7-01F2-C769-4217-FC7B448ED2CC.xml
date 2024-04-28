@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="9D892EE7-01F2-C769-4217-FC7B448ED2CC" containerWithKeyObject="43ED6FAF-F7E5-DEDB-715A-C4D0B69838F8" localFKIndex="A26AE24D-ED42-AB2E-914C-C2B0F2DFB9A2" name="Ruta_geo_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 15:32:44 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<referredTableLongName>geo_dim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>924B44D1-A6F4-A261-155F-0C76249DA015</referredTableID>
+<keyObject>4589A883-92FF-4AEA-C455-5D5C060B6EA1</keyObject>
+<referredKeyID>4589A883-92FF-4AEA-C455-5D5C060B6EA1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_geo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

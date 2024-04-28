@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="416CA954-4E7A-F3E4-218B-403EFAD84AA6" name="prodavnica_dim">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:38:19 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_33</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_prodavnice" id="84B2BCD9-A7EC-3B24-47AB-A59943F7B4F6">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:38:48 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="5BA29692-C088-1461-B37F-97B6B352AF82">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:38:48 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rukovodilac_prodavnice" id="99B54261-4570-2A21-7346-1139C510E08E">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:23:57 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="minimalne_zalkihe_vune" id="87E08185-C2CA-0BAA-160F-8BFBBB046D7F">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:24:50 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="minimalne_zalihe_mleka" id="F3D6F115-47A1-864B-26AE-FBDF4757FC23">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:24:50 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B333BEF3-2C52-1E47-BCEF-BD3F9E5F5B57" name="prodavnica_dim_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:38:48 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84B2BCD9-A7EC-3B24-47AB-A59943F7B4F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FBF12AFF-B360-6E94-A588-F0B4395971BB" name="dogo_dim">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 14:58:04 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_dogoa" id="2B097A8E-1315-06ED-6F7B-39E7B9C9ED50">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 14:59:15 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="68CC317F-0808-54A8-F67E-63428D4F49FE">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 14:59:15 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrsta_psa" id="52DAFE0E-BB19-1840-86C7-6768DA0DDCFC">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:14:12 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="godine_zivota" id="FEBCBA13-3AC6-A660-1E85-8EAC31F1E905">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:14:12 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F689989-D3C0-2671-6A90-F371EAB9C56A" name="dogo_dim_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:27:37 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B097A8E-1315-06ED-6F7B-39E7B9C9ED50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

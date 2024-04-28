@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43ED6FAF-F7E5-DEDB-715A-C4D0B69838F8" name="Ruta">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 15:29:53 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_44</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rute" id="FB4B554E-EDD3-6151-D5A6-BB023FA09844">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 15:32:38 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pasnjak_dimv1_id_pasnjaka" id="1B5C3859-4FF0-300B-C428-4703912F00DA">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 15:30:00 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B408207D-4480-E0BA-79EA-AD0C475EADEF" referredColumn="690D174E-7BF9-9223-9C65-9C749A5EAB3B"/>
+</associations>
+</Column>
+<Column name="pocetak" id="7C90D5DA-D2E3-E890-A5CF-11B71E491B4E">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 15:30:03 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60FAE9DC-B648-A281-9D04-8A477207DEE5" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+<Column name="geo_dim_id_geo" id="6EF9E604-9964-4A7B-EF39-D5810B0569EC">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 15:32:44 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D892EE7-01F2-C769-4217-FC7B448ED2CC" referredColumn="26408DA5-B4EC-5739-1C27-46290909954E"/>
+</associations>
+</Column>
+<Column name="domacinstvo_dim_domacinstvo_id" id="2ECB20CB-FF87-E557-7CE6-A04091515510">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 15:33:02 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D1D8F6B-7214-5164-A129-199467DA10AD" referredColumn="ADE3A576-F25E-7653-E09B-3F6A295A351E"/>
+</associations>
+</Column>
+<Column name="kraj" id="8A5C0DCB-1235-C968-E68B-DBA24F250615">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 15:38:01 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA22C973-A0E3-BEA1-EC33-87A440464D90" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+<Column name="redosled_po_redu" id="ECFFA2AB-203C-C96A-BD7E-F555546EEC17">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:42:26 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="991ADFC3-D51B-A4BF-BF5D-30EA76594C5D" name="Ruta_PK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 15:30:33 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB4B554E-EDD3-6151-D5A6-BB023FA09844"/>
+<colUsage columnID="1B5C3859-4FF0-300B-C428-4703912F00DA"/>
+<colUsage columnID="7C90D5DA-D2E3-E890-A5CF-11B71E491B4E"/>
+<colUsage columnID="6EF9E604-9964-4A7B-EF39-D5810B0569EC"/>
+<colUsage columnID="2ECB20CB-FF87-E557-7CE6-A04091515510"/>
+<colUsage columnID="8A5C0DCB-1235-C968-E68B-DBA24F250615"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78EADCC8-AE04-A515-A31D-8A62949F56A2" name="Ruta_pasnjak_dimv1_FK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 15:30:00 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B5C3859-4FF0-300B-C428-4703912F00DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62238F1F-F28C-8808-2AEB-4881737F62F5" name="Ruta_Datum_i_vremeje_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 15:30:03 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C90D5DA-D2E3-E890-A5CF-11B71E491B4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65AD3CE9-440E-D2FE-58E2-C9C0C40C69A5" name="Ruta_Ruta_FK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 15:31:24 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="A26AE24D-ED42-AB2E-914C-C2B0F2DFB9A2" name="Ruta_geo_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 15:32:44 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EF9E604-9964-4A7B-EF39-D5810B0569EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA8A08A8-CAD9-2A64-422B-2A9D5C5EA4BA" name="Ruta_domacinstvo_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 15:33:02 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2ECB20CB-FF87-E557-7CE6-A04091515510"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="515B382D-BBA7-69D9-8841-D53053E2DB5D" name="Ruta_Datum_i_vremeje_dim_FKv2">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 15:38:01 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A5C0DCB-1235-C968-E68B-DBA24F250615"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

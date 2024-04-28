@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A744BA65-A300-9E7B-89D9-A01C1F59E4B0" containerWithKeyObject="9C07093A-7B76-54AF-3E13-26715A229DE7" localFKIndex="8A352877-A87F-9FB3-2A9D-5E4FCD0306B2" name="vremenska_prognoza_Datum_i_vremeje_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:30:59 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<referredTableLongName>Datum_i_vremeje_dim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E184CA1C-1461-EB6F-59FC-0552CDDDF2DE</referredTableID>
+<keyObject>1D7A34A6-4457-1F29-13C3-770F990B3BA3</keyObject>
+<referredKeyID>1D7A34A6-4457-1F29-13C3-770F990B3BA3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_datuma</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

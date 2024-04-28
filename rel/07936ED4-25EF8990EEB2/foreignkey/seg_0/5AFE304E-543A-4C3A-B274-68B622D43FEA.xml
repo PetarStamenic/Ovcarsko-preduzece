@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5AFE304E-543A-4C3A-B274-68B622D43FEA" containerWithKeyObject="EF68DE04-6379-85C2-9453-01E463D592A4" localFKIndex="09465CE0-9088-6EEE-6C94-52191FE98935" name="maaaticna_knjiga_rodjenih_Ovca_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:35:26 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<referredTableLongName>Ovca_dim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>77B89456-67BD-0A45-EADD-E50B22DC21D1</referredTableID>
+<keyObject>FBAAE0DA-9002-1047-A64A-B208B218F35E</keyObject>
+<referredKeyID>FBAAE0DA-9002-1047-A64A-B208B218F35E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cipa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

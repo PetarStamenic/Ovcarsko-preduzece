@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C931D6E5-4254-0A8F-7D03-2F186112FB1D" name="maloprodajno_skladiste_fact">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:19:19 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_36</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="prodavnica_dim_id_prodavnice" id="D010F151-5208-4F8F-F199-506C59316575">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:19:53 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78F5040D-9157-0334-9BD1-0CAA5406D5F1" referredColumn="84B2BCD9-A7EC-3B24-47AB-A59943F7B4F6"/>
+</associations>
+</Column>
+<Column name="Datum_i_vremeje_dim_id_datuma" id="B8A830B9-3CC2-A2D5-2875-BD01D0EF2340">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:19:57 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CFC36578-6776-2E44-FCC3-AFCDDE7CD225" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+<Column name="iid_proizvoda" id="9AC4676D-0111-0AA0-23F0-5B39D04794B8">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:21:45 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D505D86-7708-16B0-1DD2-9AC4DC3B5B26" referredColumn="EE938E78-DAA8-BF5D-2B0B-B04D88D030D1"/>
+</associations>
+</Column>
+<Column name="kolicina_proizvoda" id="FBB4ADB3-7AF5-1EC9-05F6-46B1989D6548">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:22:37 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="centralno?" id="261C438C-9E48-C8B2-576F-9C5F603961C2">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-18 16:34:54 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="minimalna_kolicina_proizvoda" id="1E7529EA-85E0-7DD3-E410-925CD6CEF29F">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-18 16:40:53 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="optimalna kolicina" id="50D91CAD-D54E-6DAC-045F-76E7EEA289D8">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-18 16:47:10 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26B7C103-06E2-D051-C0CA-1781869C4BF7" name="maloprodajno_skladiste_fact_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:22:53 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D010F151-5208-4F8F-F199-506C59316575"/>
+<colUsage columnID="B8A830B9-3CC2-A2D5-2875-BD01D0EF2340"/>
+<colUsage columnID="9AC4676D-0111-0AA0-23F0-5B39D04794B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C940F794-8221-BDCE-64D0-2AA2C181C2B9" name="maloprodajno_skladiste_fact_prodavnica_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:19:53 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D010F151-5208-4F8F-F199-506C59316575"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDA26F31-5857-8FC3-8821-5D8C82FD4281" name="maloprodajno_skladiste_fact_Datum_i_vremeje_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:19:57 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8A830B9-3CC2-A2D5-2875-BD01D0EF2340"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DECA7F7-7253-61ED-B96D-64D2CDAA6014" name="maloprodajno_skladiste_fact_vuneni_proizvod_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:21:45 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AC4676D-0111-0AA0-23F0-5B39D04794B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

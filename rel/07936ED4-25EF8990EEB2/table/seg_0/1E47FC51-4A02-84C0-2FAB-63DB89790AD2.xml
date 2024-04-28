@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E47FC51-4A02-84C0-2FAB-63DB89790AD2" name="vakcinacija_fact">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:16:39 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stado_dim_id_stada" id="FD1C866C-8892-B2C1-0CC7-85E9999F4E6D">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:17:36 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49CC6E71-E7D8-8E0D-2DE6-CF08F6EB66CD" referredColumn="53C9E59F-4049-5C5B-5EB7-ADEC9143A590"/>
+</associations>
+</Column>
+<Column name="Datum_i_vremeje_dim_id_datuma" id="4EBCD5A5-89B9-3C61-4203-7BCFD1255FA7">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:17:39 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="970EBE47-75DD-B3A9-1A23-71FA4B0F1628" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+<Column name="vakcina_dim_vakcina_id" id="22483231-166F-82BD-F96A-63079062F475">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:17:42 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72B0507B-543C-066C-5553-9CC7F5096462" referredColumn="D3EEF003-ACDF-C9F1-441B-02DB578390E5"/>
+</associations>
+</Column>
+<Column name="Ovca_dim_id_cipa" id="7EE0AE78-7710-F596-60C1-3EE6621F6D60">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 14:50:14 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7CF86F8-2643-470D-9A40-0669D6826273" referredColumn="5AE18D27-F847-9C28-CCDF-291805BD9390"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBC66AB5-DCA2-BB20-B694-804985963188" name="vakcinacija_fact_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 14:50:24 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD1C866C-8892-B2C1-0CC7-85E9999F4E6D"/>
+<colUsage columnID="22483231-166F-82BD-F96A-63079062F475"/>
+<colUsage columnID="7EE0AE78-7710-F596-60C1-3EE6621F6D60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09773D90-DB05-805E-67FD-92C28D763F6A" name="vakcinacija_fact_stado_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:17:36 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD1C866C-8892-B2C1-0CC7-85E9999F4E6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2793039D-663F-85DD-910C-BADC074025E8" name="vakcinacija_fact_Datum_i_vremeje_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:17:39 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EBCD5A5-89B9-3C61-4203-7BCFD1255FA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10B53DDC-74DA-C835-18D9-D27ECA104208" name="vakcinacija_fact_vakcina_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:17:42 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22483231-166F-82BD-F96A-63079062F475"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38F93D28-4C46-0090-39C6-EA7D64C2871D" name="vakcinacija_fact_Ovca_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 14:50:14 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EE0AE78-7710-F596-60C1-3EE6621F6D60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

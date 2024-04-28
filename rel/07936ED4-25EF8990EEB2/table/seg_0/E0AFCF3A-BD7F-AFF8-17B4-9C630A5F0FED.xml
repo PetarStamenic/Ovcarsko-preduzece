@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0AFCF3A-BD7F-AFF8-17B4-9C630A5F0FED" name="vakcina_dim">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:16:51 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vakcina_id" id="D3EEF003-ACDF-C9F1-441B-02DB578390E5">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:17:27 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vakcina_name" id="5CB2D02B-F785-7489-FE84-86BA9E039264">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:17:27 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D291F68-0AFB-6D59-3C3D-7E64F2A5EA37" name="vakcina_dim_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:17:27 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3EEF003-ACDF-C9F1-441B-02DB578390E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

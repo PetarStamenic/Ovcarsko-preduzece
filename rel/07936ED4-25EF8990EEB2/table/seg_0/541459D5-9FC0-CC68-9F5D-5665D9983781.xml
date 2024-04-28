@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="541459D5-9FC0-CC68-9F5D-5665D9983781" name="stvari_na_aukiciji">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:37:35 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_46</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_aukcije" id="35879059-943D-FC3C-6C8E-BA2997F3D015">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:37:55 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pocetak" id="74CA2CA7-1807-AAC2-7D2D-24BAAB163E93">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:38:48 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FADDD511-EE10-2696-E229-F854C6708CF6" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+<Column name="kraj" id="6BE8AF1F-BD3A-C055-9F67-6B01605D27EE">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:38:53 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6ACDF42-FE64-0B5B-3C6A-4ECC7033502E" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+<Column name="proizvod_dim_id_proizvoda" id="EA2E2C69-6831-74C0-9BD6-99490D44339A">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:39:44 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31144E33-498C-3FD3-CFFD-0EAF19A94A5D" referredColumn="EE938E78-DAA8-BF5D-2B0B-B04D88D030D1"/>
+</associations>
+</Column>
+<Column name="kolicina" id="298099B0-7527-663B-EF72-AF49228E5BF6">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:39:54 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pocetna_cena" id="2AD08944-17EF-F883-33A7-F018F2C260CF">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-18 15:09:01 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BDDC8AB-6931-E0AE-9CE9-F4A7B58D29BC" name="stvari_na_aukiciji_PK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:37:55 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35879059-943D-FC3C-6C8E-BA2997F3D015"/>
+<colUsage columnID="74CA2CA7-1807-AAC2-7D2D-24BAAB163E93"/>
+<colUsage columnID="6BE8AF1F-BD3A-C055-9F67-6B01605D27EE"/>
+<colUsage columnID="EA2E2C69-6831-74C0-9BD6-99490D44339A"/>
+<colUsage columnID="298099B0-7527-663B-EF72-AF49228E5BF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E3B9F3A-CF0D-4148-9DC9-3179F4692DD9" name="stvari_na_aukiciji_Datum_i_vremeje_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:38:48 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74CA2CA7-1807-AAC2-7D2D-24BAAB163E93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC3E36AD-9117-5DDE-3D6A-88C6892EAA2E" name="stvari_na_aukiciji_Datum_i_vremeje_dim_FKv2">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:38:53 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BE8AF1F-BD3A-C055-9F67-6B01605D27EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="307FC628-7E70-C8F7-9AEE-95507BC42E45" name="stvari_na_aukiciji_proizvod_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:39:44 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA2E2C69-6831-74C0-9BD6-99490D44339A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

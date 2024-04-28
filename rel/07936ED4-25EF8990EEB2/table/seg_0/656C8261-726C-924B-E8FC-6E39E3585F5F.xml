@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="656C8261-726C-924B-E8FC-6E39E3585F5F" name="Da_li_se_desila_ispasa">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:47:13 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_49</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ispase" id="3B8EE9A8-60D4-25B8-73B1-13F6C3165D13">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:47:48 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="da_li_se_desila" id="98CA72BE-A4BF-D4FF-B9D6-8AEA02EF2CA8">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:47:48 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9050A836-31A7-15B0-F0AA-C80B8D63CBC5" name="Da_li_se_desila_ispasa_PK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:47:48 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B8EE9A8-60D4-25B8-73B1-13F6C3165D13"/>
+<colUsage columnID="98CA72BE-A4BF-D4FF-B9D6-8AEA02EF2CA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

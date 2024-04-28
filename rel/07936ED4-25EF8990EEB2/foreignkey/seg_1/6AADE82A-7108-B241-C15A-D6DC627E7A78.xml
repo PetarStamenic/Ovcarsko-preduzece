@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="6AADE82A-7108-B241-C15A-D6DC627E7A78" containerWithKeyObject="15C6697C-B840-FCD8-EB32-15B3590DB902" localFKIndex="A5653E0C-FD5C-689F-36D8-D2F1D50BF0A9" name="isapasa_dim_Datum_i_vremeje_dim_FKv2">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 15:37:47 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<referredTableLongName>Datum_i_vremeje_dim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E184CA1C-1461-EB6F-59FC-0552CDDDF2DE</referredTableID>
+<keyObject>1D7A34A6-4457-1F29-13C3-770F990B3BA3</keyObject>
+<referredKeyID>1D7A34A6-4457-1F29-13C3-770F990B3BA3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_datuma</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

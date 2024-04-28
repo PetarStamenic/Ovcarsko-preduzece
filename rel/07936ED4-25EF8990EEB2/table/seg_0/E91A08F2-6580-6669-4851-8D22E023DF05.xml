@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E91A08F2-6580-6669-4851-8D22E023DF05" name="zdravstveni_karton_fact">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:17:59 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pocetak" id="97F15015-146D-8A5C-4ADF-05042D49E1B9">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:20:08 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="728AB760-5287-2966-0F61-CFE4B5F0DDEE" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+<Column name="kraj" id="3931D185-B70D-94E6-2043-878BC0BEB672">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:20:12 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DB83FAD-27D6-5389-B157-C69F68F7ABF4" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+<Column name="Ovca_dim_id_cipa" id="5E88D2DC-1C24-DEAB-F956-8083498E6146">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:21:03 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AA065A8-EEEE-2A90-FD8C-F81A9FB18C37" referredColumn="5AE18D27-F847-9C28-CCDF-291805BD9390"/>
+</associations>
+</Column>
+<Column name="bolesti_dim_id_bolseti" id="48875FAA-DEB1-E094-0099-39BBF790D721">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:21:06 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="016C5520-53C5-CCDE-426C-F8A579C19362" referredColumn="2A83AAF8-B3DF-538A-F2C7-C77E87AB161A"/>
+</associations>
+</Column>
+<Column name="doktor_dim_id_doktora" id="A794F64A-BC04-3834-6FDE-B01E1265188A">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 14:50:37 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DFD874F-B05E-0FCB-EBDF-05ED4D5AE60B" referredColumn="4B6E2F2E-7CAD-5671-9C86-E489FA627050"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B3C2992-0497-44AF-DFCF-F730F7C02CFD" name="zdravstveni_karton_fact_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:22:25 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97F15015-146D-8A5C-4ADF-05042D49E1B9"/>
+<colUsage columnID="3931D185-B70D-94E6-2043-878BC0BEB672"/>
+<colUsage columnID="5E88D2DC-1C24-DEAB-F956-8083498E6146"/>
+<colUsage columnID="48875FAA-DEB1-E094-0099-39BBF790D721"/>
+<colUsage columnID="A794F64A-BC04-3834-6FDE-B01E1265188A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD7927BA-5673-C019-5D29-0D323BECEE10" name="zdravstveni_karton_fact_Datum_i_vremeje_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:20:08 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97F15015-146D-8A5C-4ADF-05042D49E1B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8507B544-EE10-51FC-73EA-796E535E4F5E" name="zdravstveni_karton_fact_Datum_i_vremeje_dim_FKv2">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:20:12 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3931D185-B70D-94E6-2043-878BC0BEB672"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F101CE22-27CB-01B8-A07F-12192863CB80" name="zdravstveni_karton_fact_Ovca_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:21:03 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E88D2DC-1C24-DEAB-F956-8083498E6146"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79C33206-7687-BFDC-93CB-6765E3EE549F" name="zdravstveni_karton_fact_bolesti_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:21:06 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48875FAA-DEB1-E094-0099-39BBF790D721"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B69971A-CBE6-C27F-D7F0-EC1BD54A798A" name="zdravstveni_karton_fact_doktor_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 14:50:37 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A794F64A-BC04-3834-6FDE-B01E1265188A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

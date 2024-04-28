@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF68DE04-6379-85C2-9453-01E463D592A4" name="maaaticna_knjiga_rodjenih">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:35:10 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Datum_i_vremeje_dim_id_datuma" id="2433FD8D-64E7-39A5-AD94-67E9AF542BD0">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:35:23 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2F8F342-99C7-C19D-8789-8CE264A863C8" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+<Column name="mama" id="59B479F8-5B23-10EB-EE24-45FB42BC1485">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:35:26 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AFE304E-543A-4C3A-B274-68B622D43FEA" referredColumn="5AE18D27-F847-9C28-CCDF-291805BD9390"/>
+</associations>
+</Column>
+<Column name="tata" id="B61EABB1-5B43-4B94-9175-F7223582974B">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:35:28 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE163CB7-03CA-FEBB-D080-2330DB9A5051" referredColumn="5AE18D27-F847-9C28-CCDF-291805BD9390"/>
+</associations>
+</Column>
+<Column name="ovca" id="86D3141A-CA89-06AD-D8DE-8BC33BB3ACF1">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:35:31 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EBC3394-96B6-D031-8E60-4AAAC9AD57D0" referredColumn="5AE18D27-F847-9C28-CCDF-291805BD9390"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6B61148-6167-C5F9-5C20-E4941E2200B1" name="maaaticna_knjiga_rodjenih_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:35:51 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2433FD8D-64E7-39A5-AD94-67E9AF542BD0"/>
+<colUsage columnID="59B479F8-5B23-10EB-EE24-45FB42BC1485"/>
+<colUsage columnID="B61EABB1-5B43-4B94-9175-F7223582974B"/>
+<colUsage columnID="86D3141A-CA89-06AD-D8DE-8BC33BB3ACF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19208E3C-3E41-5EC2-05C2-FB1C34913E09" name="maaaticna_knjiga_rodjenih_Datum_i_vremeje_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:35:23 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2433FD8D-64E7-39A5-AD94-67E9AF542BD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09465CE0-9088-6EEE-6C94-52191FE98935" name="maaaticna_knjiga_rodjenih_Ovca_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:35:26 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59B479F8-5B23-10EB-EE24-45FB42BC1485"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4575F0D-7A13-EBD8-22E4-891F40C01936" name="maaaticna_knjiga_rodjenih_Ovca_dim_FKv2">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:35:28 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B61EABB1-5B43-4B94-9175-F7223582974B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="827698A6-D5CD-892A-20F1-99350C9D2FF7" name="maaaticna_knjiga_rodjenih_Ovca_dim_FKv3">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:35:31 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86D3141A-CA89-06AD-D8DE-8BC33BB3ACF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

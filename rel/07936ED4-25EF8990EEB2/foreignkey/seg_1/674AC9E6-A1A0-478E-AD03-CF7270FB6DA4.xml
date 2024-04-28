@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="674AC9E6-A1A0-478E-AD03-CF7270FB6DA4" containerWithKeyObject="D70ABB6A-AAAF-3B00-1307-9AFBF858EF63" localFKIndex="F2E75C96-67FD-45F8-7239-7FC7CB11A672" name="kvalitet_pasnjaka_Flora_i_Fauna_pasnjaka_FK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 16:01:42 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<referredTableLongName>Flora_i_Fauna_pasnjaka</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8726B790-83DE-2871-D79D-5A4482ABCE0D</referredTableID>
+<keyObject>281C48F8-64EF-8F12-5E05-4308D27E5C54</keyObject>
+<referredKeyID>281C48F8-64EF-8F12-5E05-4308D27E5C54</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

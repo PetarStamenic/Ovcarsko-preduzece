@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C07093A-7B76-54AF-3E13-26715A229DE7" name="vremenska_prognoza">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:30:12 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vremenski_uslov_id_uslova" id="699DC3FE-8DFE-CC59-7260-4A201EF34615">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:30:56 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07130707-6B6D-4070-B7C3-997FE71A1593" referredColumn="FAA64981-97E0-A810-776E-5BE9806ED29E"/>
+</associations>
+</Column>
+<Column name="Datum_i_vremeje_dim_id_datuma" id="1AEF2468-1AC6-EFB2-1C85-EE2F8C7F91C5">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:30:59 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A744BA65-A300-9E7B-89D9-A01C1F59E4B0" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+<Column name="geo_dim_id_geo" id="5C4BB57B-8E0B-B577-231B-69900A5B18DA">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:31:01 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EF14E20-C8AE-9558-51A9-92717925C306" referredColumn="26408DA5-B4EC-5739-1C27-46290909954E"/>
+</associations>
+</Column>
+<Column name="temperatura" id="A13EFFA1-0346-7A14-8A01-9B9334402327">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:31:16 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3EF87F88-73C9-B2E3-B7B2-AB286F9D3694" name="vremenska_prognoza_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:31:16 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="699DC3FE-8DFE-CC59-7260-4A201EF34615"/>
+<colUsage columnID="1AEF2468-1AC6-EFB2-1C85-EE2F8C7F91C5"/>
+<colUsage columnID="5C4BB57B-8E0B-B577-231B-69900A5B18DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85F30547-99E2-F527-E76C-AEA7DADEA414" name="vremenska_prognoza_vremenski_uslov_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:30:56 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="699DC3FE-8DFE-CC59-7260-4A201EF34615"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A352877-A87F-9FB3-2A9D-5E4FCD0306B2" name="vremenska_prognoza_Datum_i_vremeje_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:30:59 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AEF2468-1AC6-EFB2-1C85-EE2F8C7F91C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E890597B-DA9E-AA23-408A-30F31809ADEC" name="vremenska_prognoza_geo_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:31:01 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C4BB57B-8E0B-B577-231B-69900A5B18DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

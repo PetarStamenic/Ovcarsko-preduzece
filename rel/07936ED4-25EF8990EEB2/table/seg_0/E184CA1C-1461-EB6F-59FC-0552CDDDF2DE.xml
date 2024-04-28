@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E184CA1C-1461-EB6F-59FC-0552CDDDF2DE" name="Datum_i_vremeje_dim">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 14:40:23 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_datuma" id="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 14:41:41 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum datuma" id="B1CB4610-7878-5738-C31C-1E14153CD7EA">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 14:41:41 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vreme" id="7DA35E82-AC6F-9B82-2DB2-8B096924BFB2">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:16:04 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="praznik" id="E50558C7-EA9A-F67F-0483-DF029877E474">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:16:04 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dan_nedelje" id="72744C73-ECC7-BEE3-C21A-E8EC90A80409">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:16:04 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D7A34A6-4457-1F29-13C3-770F990B3BA3" name="Datum_i_vremeje_dim_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 14:41:53 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

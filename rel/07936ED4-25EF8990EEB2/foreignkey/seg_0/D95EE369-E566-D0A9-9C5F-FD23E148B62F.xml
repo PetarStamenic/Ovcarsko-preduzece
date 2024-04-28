@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D95EE369-E566-D0A9-9C5F-FD23E148B62F" containerWithKeyObject="0B14F38D-7FC7-0133-F984-EFAD64C351AF" localFKIndex="BE6555D0-0032-A2C3-147C-5428A5180023" name="pogibije_ovci_fact_indijci_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:04:48 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<referredTableLongName>indijci_dim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3D666056-C753-CA48-0FA4-B6E06857E88E</referredTableID>
+<keyObject>F6E870AF-D4B0-2071-9E6F-A0E0A541B5F8</keyObject>
+<referredKeyID>F6E870AF-D4B0-2071-9E6F-A0E0A541B5F8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_indijca</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

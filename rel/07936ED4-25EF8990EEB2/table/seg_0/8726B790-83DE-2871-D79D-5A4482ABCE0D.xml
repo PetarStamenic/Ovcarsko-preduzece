@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8726B790-83DE-2871-D79D-5A4482ABCE0D" name="Flora_i_Fauna_pasnjaka">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 16:01:07 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_46</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A523A97C-5907-F9BA-FE34-455150086379">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 16:01:32 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="CC9E880E-E2A8-C2E5-8515-7860FC02E333">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 16:01:32 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="281C48F8-64EF-8F12-5E05-4308D27E5C54" name="Flora_i_Fauna_pasnjaka_PK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 16:01:32 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A523A97C-5907-F9BA-FE34-455150086379"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C64681D5-5243-4E12-5FFB-ECE9EFF935C2" containerWithKeyObject="7782B62E-11FA-0630-F061-62AE16568C5E" localFKIndex="1E612EE9-D3FC-3BC0-336E-FA48A23B28CC" name="ovce_shenanigans_fact_akcija_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:32:19 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<referredTableLongName>akcija_dim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D50719E5-6CEE-A304-C535-A7DCDC0FBBFC</referredTableID>
+<keyObject>0C89211A-A22F-D1ED-436B-7FACE9259E9A</keyObject>
+<referredKeyID>0C89211A-A22F-D1ED-436B-7FACE9259E9A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_akcije</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

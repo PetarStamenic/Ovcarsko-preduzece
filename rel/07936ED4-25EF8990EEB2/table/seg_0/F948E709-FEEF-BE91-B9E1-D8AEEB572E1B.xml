@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F948E709-FEEF-BE91-B9E1-D8AEEB572E1B" name="vremenski_uslov">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:30:02 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_uslova" id="FAA64981-97E0-A810-776E-5BE9806ED29E">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:30:38 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrsta_uslova" id="727FD3B2-C058-7105-7673-137FCEE565A5">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:30:51 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4EC89FC4-374A-9843-584A-A73743D87F28" name="vremenski_uslov_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:30:54 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAA64981-97E0-A810-776E-5BE9806ED29E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

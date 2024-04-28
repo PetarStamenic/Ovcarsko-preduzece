@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D70ABB6A-AAAF-3B00-1307-9AFBF858EF63" name="Izvidjanje_pasnjaka">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:35:28 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_izvidjanja" id="7E25CDE7-68FD-FB46-5242-ACC1F19F57B4">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:36:16 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6C7B94A-8744-715F-5E1E-C0951FD20DB0" referredColumn="690D174E-7BF9-9223-9C65-9C749A5EAB3B"/>
+</associations>
+</Column>
+<Column name="Datum_i_vremeje_dim_id_datuma" id="F333B1E9-D82F-6F31-5001-269735DD73BE">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:36:19 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72EF8925-0A96-D769-726F-3247958ECDB1" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+<Column name="kolicina" id="5FE7CADF-11D8-0B8B-C24F-5E7ABC77325C">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:36:34 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="karakteristika" id="60C3773E-BBCB-9C36-906B-2A1341400170">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 16:01:42 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="674AC9E6-A1A0-478E-AD03-CF7270FB6DA4" referredColumn="A523A97C-5907-F9BA-FE34-455150086379"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CECC2D10-3383-5BC9-0551-2703ED3B3B53" name="kvalitet_pasnjaka_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:36:34 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F333B1E9-D82F-6F31-5001-269735DD73BE"/>
+<colUsage columnID="7E25CDE7-68FD-FB46-5242-ACC1F19F57B4"/>
+<colUsage columnID="5FE7CADF-11D8-0B8B-C24F-5E7ABC77325C"/>
+<colUsage columnID="60C3773E-BBCB-9C36-906B-2A1341400170"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2788A84A-4729-C34A-BFB7-C80B730D6118" name="kvalitet_pasnjaka_pasnjak_dimv1_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:36:16 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E25CDE7-68FD-FB46-5242-ACC1F19F57B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D620B1DE-1784-B30C-A18D-6D18C1781B87" name="kvalitet_pasnjaka_Datum_i_vremeje_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:36:19 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F333B1E9-D82F-6F31-5001-269735DD73BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2E75C96-67FD-45F8-7239-7FC7CB11A672" name="kvalitet_pasnjaka_Flora_i_Fauna_pasnjaka_FK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 16:01:42 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60C3773E-BBCB-9C36-906B-2A1341400170"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

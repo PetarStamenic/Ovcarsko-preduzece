@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="19646A3F-503F-3A03-803D-18A2AD35CD8D" containerWithKeyObject="38F9F837-2AAE-F9EE-2B3F-0B0C20DC4956" localFKIndex="84A6C186-4F23-FE33-5817-EB9024BB2F93" name="vrste_fact_dogo_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:14:27 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<referredTableLongName>dogo_dim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FBF12AFF-B360-6E94-A588-F0B4395971BB</referredTableID>
+<keyObject>6F689989-D3C0-2671-6A90-F371EAB9C56A</keyObject>
+<referredKeyID>6F689989-D3C0-2671-6A90-F371EAB9C56A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_dogoa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

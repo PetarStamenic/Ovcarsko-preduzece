@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="095AA117-F4C3-B893-084F-348FC45F71E4" name="stado_dim">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:12:53 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_stada" id="53C9E59F-4049-5C5B-5EB7-ADEC9143A590">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:13:30 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trenutni_broj_ovaca" id="9084C980-9BAA-715F-C0CC-0875C3D2F31D">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:13:50 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poslednja_prosecna_kolicina_vune" id="685F4729-B3BD-6992-15C3-EFBB3CBA8BA2">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:18:35 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poslednja_prosecna_kolicina_mleka" id="78336530-3F86-FACC-F8A8-C06531095831">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:18:35 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poslednji_prosecni_kvalitet_mleka" id="3E3CB3DD-08ED-4426-E8B8-6EDBFB9C53C3">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:18:35 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poslednji_prosecni_kvalitet_vune" id="01EE566D-821B-DE1C-1182-84BE959C96F6">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:18:35 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trenutni_prosecni_kvalitet_vune" id="AEDD292F-244C-5119-765E-BBABAD41513E">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:18:35 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trenutni_prosecni_kvalitet_mleka" id="E59053C9-6B3D-15FF-63C6-42A7FA14DB8C">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:18:35 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trenutnia_prosecna_kolicina_vune" id="DA189C84-3A31-5AA7-1F86-4E6ECC598CD8">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:18:35 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trenutna_prosecna_kolicina_mleka" id="231B604F-71D4-8A29-076F-947AE4E626BF">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:18:35 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kvalitet_hrane" id="4D1CA577-3BFC-85A7-09EE-EB3098047E0C">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:20:28 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="elitno?" id="16AFBB10-C988-C0E4-4657-38797FABF30F">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-18 14:43:48 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86873600-7F17-7125-6F34-2EF7DFCF9D7B" name="stado_dim_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:13:30 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53C9E59F-4049-5C5B-5EB7-ADEC9143A590"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

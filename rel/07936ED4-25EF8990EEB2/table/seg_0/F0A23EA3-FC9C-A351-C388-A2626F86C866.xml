@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0A23EA3-FC9C-A351-C388-A2626F86C866" name="prehrana_fact">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:22:11 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_28</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stado_dim_id_stada" id="3E9B13C6-2519-C4D9-0E66-3002E67AA888">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:22:23 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0466DA2B-EC0F-4645-EBB6-5EABC94AD11A" referredColumn="53C9E59F-4049-5C5B-5EB7-ADEC9143A590"/>
+</associations>
+</Column>
+<Column name="Datum_i_vremeje_dim_id_datuma" id="A3261691-48B8-9405-21ED-E9D468C68473">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:22:26 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01DFD1B3-D170-E208-99CB-D4DC262FA5E0" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+<Column name="hrana_dim_id_hrane" id="1FB4A314-9DEC-5E6C-DB71-D820F76748B9">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:22:29 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E47422D5-7D2C-21BC-B7F8-EBE4638464AF" referredColumn="CF648945-9814-6443-12C8-B733F9853822"/>
+</associations>
+</Column>
+<Column name="kolicina" id="6CAAD487-E33A-549B-86FA-7AEA1A9BBE68">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:22:43 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E301DDA-0F15-5BB8-BC91-D2E8AFAAADCC" name="prehrana_fact_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:22:43 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E9B13C6-2519-C4D9-0E66-3002E67AA888"/>
+<colUsage columnID="1FB4A314-9DEC-5E6C-DB71-D820F76748B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D057A38F-9F29-F6EB-6205-30BC6E8F9B93" name="prehrana_fact_stado_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:22:23 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E9B13C6-2519-C4D9-0E66-3002E67AA888"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="754B6C44-CC33-2671-979E-B6DEAF5416F7" name="prehrana_fact_Datum_i_vremeje_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:22:26 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3261691-48B8-9405-21ED-E9D468C68473"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="987B745D-682B-1D0B-1856-58E55483EF25" name="prehrana_fact_hrana_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:22:29 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FB4A314-9DEC-5E6C-DB71-D820F76748B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

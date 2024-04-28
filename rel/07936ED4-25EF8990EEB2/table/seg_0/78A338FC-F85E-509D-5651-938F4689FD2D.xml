@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78A338FC-F85E-509D-5651-938F4689FD2D" name="pasnjak_dimv1">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:23:53 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pasnjaka" id="690D174E-7BF9-9223-9C65-9C749A5EAB3B">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:24:08 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poslednji_kvalitet_pasnjaka" id="09A65AC7-92CC-D8C3-F061-FDDEC587FC3A">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:35:00 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="851C5486-005E-A7B1-BBC4-1A1B4917BFB3" name="pasnjak_dimv1_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:25:00 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="690D174E-7BF9-9223-9C65-9C749A5EAB3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

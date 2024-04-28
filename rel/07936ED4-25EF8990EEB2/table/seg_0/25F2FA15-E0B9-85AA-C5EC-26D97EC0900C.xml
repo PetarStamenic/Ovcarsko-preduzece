@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25F2FA15-E0B9-85AA-C5EC-26D97EC0900C" name="stado_fact">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:11:10 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="domacinstvo_domacinstvo_id" id="7E9EBFCF-F8AE-1E81-A472-EA10FBC01583">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:12:04 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="683FB958-6A20-E795-F5F9-3F643C9DA63A" referredColumn="ADE3A576-F25E-7653-E09B-3F6A295A351E"/>
+</associations>
+</Column>
+<Column name="Ovca_dim_id_cipa" id="FB49A4FE-E41C-4C30-0846-10139D6F9D99">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:12:09 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E1A5183-2E9B-9D36-4063-2AB850A5BA05" referredColumn="5AE18D27-F847-9C28-CCDF-291805BD9390"/>
+</associations>
+</Column>
+<Column name="Datum_i_vremeje_dim_id_datuma" id="252DC3BD-8647-CDD4-6E17-32C749AE8640">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:12:13 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FA10C18-94DC-3B3D-FA37-614EC197CE4B" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+<Column name="stado_dim_id_stada" id="E5A25A7D-FCFF-621A-83C8-66CD7E7A9CAA">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:13:57 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E367E2CC-9130-4321-66D8-2A022A1B4AAD" referredColumn="53C9E59F-4049-5C5B-5EB7-ADEC9143A590"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9654A15B-1AD1-D6FD-2BD2-237413B4E856" name="stado_fact_domacinstvo_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:12:04 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E9EBFCF-F8AE-1E81-A472-EA10FBC01583"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C48CB43-8CBD-B459-81E9-EAC43ABBD38E" name="stado_fact_Ovca_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:12:09 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB49A4FE-E41C-4C30-0846-10139D6F9D99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="261382FD-DCE8-0E5D-47A2-305DB71FCB9B" name="stado_fact_Datum_i_vremeje_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:12:13 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="252DC3BD-8647-CDD4-6E17-32C749AE8640"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB8D2737-72B0-7182-FB65-747356EC3AFD" name="stado_fact_stado_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:13:57 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5A25A7D-FCFF-621A-83C8-66CD7E7A9CAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E6A8645-85E2-AA6F-ED81-CBFEF4F462C8" name="odgovorni_cobani_fact">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:26:24 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ispase" id="C6B86806-BAA1-9964-9852-88A9F33F597A">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:26:35 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pocetak" id="CE8BC0A5-822F-13D1-6E5B-BC9A4274A5D7">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:26:47 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BD0395A-B4BB-C985-6D99-876E095E565C" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+<Column name="kraj" id="79BC89DE-A5C8-8F8D-49AA-665A84FAF2F3">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:27:00 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C8EE3AF-9E9F-46CC-7C6C-3B864CC1691C" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+<Column name="indijci_dim_id_indijca" id="FDAE7AEF-663A-C24C-63FB-72FA2BC15D7B">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:27:30 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8C5E03E-BC3A-7DF6-A781-760699396F4E" referredColumn="6A5B0E00-D35D-A594-D2C0-092E661DD1F5"/>
+</associations>
+</Column>
+<Column name="id_rute" id="8EC82804-48B3-73F4-8330-B3AD120A9752">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:42:04 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58495EE5-7B34-A88A-511B-056A84D3F05D" name="ispasa_fact_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:27:49 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE8BC0A5-822F-13D1-6E5B-BC9A4274A5D7"/>
+<colUsage columnID="79BC89DE-A5C8-8F8D-49AA-665A84FAF2F3"/>
+<colUsage columnID="FDAE7AEF-663A-C24C-63FB-72FA2BC15D7B"/>
+<colUsage columnID="C6B86806-BAA1-9964-9852-88A9F33F597A"/>
+<colUsage columnID="8EC82804-48B3-73F4-8330-B3AD120A9752"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D393E246-106A-9799-8094-F36677097C08" name="Pocetak_ispase">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:26:47 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE8BC0A5-822F-13D1-6E5B-BC9A4274A5D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6F6FD0C-5F0F-3F49-D332-94C2D6880C04" name="kraj_ispase">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:27:00 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79BC89DE-A5C8-8F8D-49AA-665A84FAF2F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D1E3666-7EBE-0C6B-0B6C-358DC8E3FD1C" name="ispasa_fact_indijci_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:27:30 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDAE7AEF-663A-C24C-63FB-72FA2BC15D7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

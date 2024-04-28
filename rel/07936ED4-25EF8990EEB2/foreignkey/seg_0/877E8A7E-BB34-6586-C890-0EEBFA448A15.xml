@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="877E8A7E-BB34-6586-C890-0EEBFA448A15" containerWithKeyObject="38F9F837-2AAE-F9EE-2B3F-0B0C20DC4956" localFKIndex="516B8575-4DD1-8FDA-402D-43BB0295B5C5" name="vrste_fact_stado_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:09:14 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<referredTableLongName>stado_dim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>095AA117-F4C3-B893-084F-348FC45F71E4</referredTableID>
+<keyObject>86873600-7F17-7125-6F34-2EF7DFCF9D7B</keyObject>
+<referredKeyID>86873600-7F17-7125-6F34-2EF7DFCF9D7B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_stada</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

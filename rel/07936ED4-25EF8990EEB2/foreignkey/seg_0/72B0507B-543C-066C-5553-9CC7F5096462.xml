@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="72B0507B-543C-066C-5553-9CC7F5096462" containerWithKeyObject="1E47FC51-4A02-84C0-2FAB-63DB89790AD2" localFKIndex="10B53DDC-74DA-C835-18D9-D27ECA104208" name="vakcinacija_fact_vakcina_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:17:42 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<referredTableLongName>vakcina_dim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E0AFCF3A-BD7F-AFF8-17B4-9C630A5F0FED</referredTableID>
+<keyObject>3D291F68-0AFB-6D59-3C3D-7E64F2A5EA37</keyObject>
+<referredKeyID>3D291F68-0AFB-6D59-3C3D-7E64F2A5EA37</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>vakcina_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="BF7ED203-2943-71CA-45A4-0E5961B0E1B6" containerWithKeyObject="D362ACAC-E891-1C82-D9CE-6A3D77D0B29F" localFKIndex="AA7B3AEF-0DFC-C3C7-5A68-569D7C1C5423" name="centralno_skladiste_vuneni_proizvod_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:27:33 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<referredTableLongName>vuneni_proizvod_dim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A7455C92-FECC-BFAE-4AAD-40DB03BF9B47</referredTableID>
+<keyObject>717534F5-E6E9-D463-5CD1-2DCA517F47C7</keyObject>
+<referredKeyID>717534F5-E6E9-D463-5CD1-2DCA517F47C7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_proizvoda</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

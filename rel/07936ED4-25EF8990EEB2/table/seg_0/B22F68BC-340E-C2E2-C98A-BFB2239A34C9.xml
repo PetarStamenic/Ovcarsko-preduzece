@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B22F68BC-340E-C2E2-C98A-BFB2239A34C9" name="velikoprodaja_dim">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:49:34 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_43</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_velikoprodaje" id="E1B88488-EE53-BED4-237C-A145CF5543C4">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:50:36 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kolicina_vune" id="19B4954C-E754-CF34-C4B7-8F8837D2BA58">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:50:36 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kolicina_ovaca" id="07448D0E-38B5-3155-C243-15C8999E92F2">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:50:36 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="osnovna_cena_vune" id="428C43B0-27EF-9F92-8079-64FF55DE5565">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:54:06 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="osnovna_cena_ovce" id="4178A459-5E55-0D5E-53EB-D2D6D0F8416D">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:54:06 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="824495C7-8375-297D-CE12-3616FE2A7B15" name="velikoprodaja_dim_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:51:00 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1B88488-EE53-BED4-237C-A145CF5543C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

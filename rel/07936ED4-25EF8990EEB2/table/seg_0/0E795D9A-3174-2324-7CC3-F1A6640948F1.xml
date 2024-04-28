@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E795D9A-3174-2324-7CC3-F1A6640948F1" name="izvoz_vune">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:42:12 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_41</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Datum_i_vremeje_dim_id_datuma" id="B85237F4-A9EF-3503-9806-9D4C468ADD24">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:42:21 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4710A09E-1B08-9AD1-E8A2-59881D4E5D04" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+<Column name="vuneni_proizvod_dim_id_proizvoda" id="B7B0753A-A4D1-BD5B-7BFF-34ECEE3A5CF7">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:42:24 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BF6EDB5-CA98-CECE-B8F8-84493F51EC85" referredColumn="EE938E78-DAA8-BF5D-2B0B-B04D88D030D1"/>
+</associations>
+</Column>
+<Column name="kolicina_vune" id="647601DD-9DF4-7F2B-668B-481931B692EE">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:42:39 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vuneni_proizvod_dim_id_proizvoda1" id="BA61EE0A-5666-1DCB-25DD-154EB82D1526">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-29 12:00:13 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9810E032-7F95-0914-3208-386423B72148" referredColumn="EE938E78-DAA8-BF5D-2B0B-B04D88D030D1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A64F8BF-32AD-65F1-09A4-D0F7F5B19378" name="izvoz_vune_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:42:39 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B85237F4-A9EF-3503-9806-9D4C468ADD24"/>
+<colUsage columnID="B7B0753A-A4D1-BD5B-7BFF-34ECEE3A5CF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFEB1623-1C3B-C43C-4022-3BC24E97470E" name="izvoz_vune_Datum_i_vremeje_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:42:21 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B85237F4-A9EF-3503-9806-9D4C468ADD24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DF3000E-03CF-5841-4BD1-7593EF6D14B9" name="izvoz_vune_vuneni_proizvod_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-22 12:42:24 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7B0753A-A4D1-BD5B-7BFF-34ECEE3A5CF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EBFB079-FC59-46E8-4139-02988AA568D6" name="izvoz_vune_vuneni_proizvod_dim_FKv2">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-29 12:00:13 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA61EE0A-5666-1DCB-25DD-154EB82D1526"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

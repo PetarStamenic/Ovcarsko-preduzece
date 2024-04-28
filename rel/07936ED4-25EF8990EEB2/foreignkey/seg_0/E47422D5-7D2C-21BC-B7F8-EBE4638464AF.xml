@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E47422D5-7D2C-21BC-B7F8-EBE4638464AF" containerWithKeyObject="F0A23EA3-FC9C-A351-C388-A2626F86C866" localFKIndex="987B745D-682B-1D0B-1856-58E55483EF25" name="prehrana_fact_hrana_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:22:29 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<referredTableLongName>hrana_dim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7C77C208-215F-4132-ABFD-8A09A8293584</referredTableID>
+<keyObject>4EB99AD2-E6A8-47E5-0562-C79AD20D2838</keyObject>
+<referredKeyID>4EB99AD2-E6A8-47E5-0562-C79AD20D2838</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_hrane</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C85E6716-40B4-C478-8644-848133501FA3" containerWithKeyObject="38F9F837-2AAE-F9EE-2B3F-0B0C20DC4956" localFKIndex="D6AEC461-A18D-4D72-772D-87D7DA9BEF50" name="odgovorni_coban">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:02:26 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<referredTableLongName>chobani_dim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3D666056-C753-CA48-0FA4-B6E06857E88E</referredTableID>
+<keyObject>F6E870AF-D4B0-2071-9E6F-A0E0A541B5F8</keyObject>
+<referredKeyID>F6E870AF-D4B0-2071-9E6F-A0E0A541B5F8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_indijca</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

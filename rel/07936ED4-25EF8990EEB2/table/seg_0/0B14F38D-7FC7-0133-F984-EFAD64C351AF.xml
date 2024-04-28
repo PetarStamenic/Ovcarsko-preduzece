@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B14F38D-7FC7-0133-F984-EFAD64C351AF" name="pogibije_ovci_fact">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:04:03 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ovca_dim_id_cipa" id="0FE49A3B-C02B-9A7C-1524-DF1EB8C7AB29">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:04:40 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90802FAE-E44E-0FC1-53F4-05CDB61DA50F" referredColumn="5AE18D27-F847-9C28-CCDF-291805BD9390"/>
+</associations>
+</Column>
+<Column name="Datum_i_vremeje_dim_id_datuma" id="FDACB5B4-8A8B-F7DF-0968-6E5F52A81721">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:04:44 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4FC5929-377B-8C01-AD1D-E5DE9CF29D6B" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+<Column name=" " id="B44F148C-C235-9966-3652-D9FC16329633">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:04:48 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D95EE369-E566-D0A9-9C5F-FD23E148B62F" referredColumn="6A5B0E00-D35D-A594-D2C0-092E661DD1F5"/>
+</associations>
+</Column>
+<Column name="uzrok_smrti_dim_id_smrti" id="A8F64E8D-9FC3-4CAD-1889-EED2328B4138">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:04:52 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB65D88B-12A2-4E6B-B4D2-BC1D70E0E120" referredColumn="1651BA8E-758C-738F-1792-9495DB98F2E8"/>
+</associations>
+</Column>
+<Column name="geo_dim_id_geo" id="CF8AE66C-4F15-D55A-40A7-0B943DEDD1B8">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:04:56 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="739C453A-8321-AA8C-857C-F58CAB11BBB2" referredColumn="26408DA5-B4EC-5739-1C27-46290909954E"/>
+</associations>
+</Column>
+<Column name="id_ispase" id="09474C05-BABC-DABD-2C9F-8034CC9F1594">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-18 14:30:34 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7329191-E7D5-F8F4-FFF9-966B3844123A" name="pogibije_ovci_fact_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:06:18 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FE49A3B-C02B-9A7C-1524-DF1EB8C7AB29"/>
+<colUsage columnID="FDACB5B4-8A8B-F7DF-0968-6E5F52A81721"/>
+<colUsage columnID="B44F148C-C235-9966-3652-D9FC16329633"/>
+<colUsage columnID="A8F64E8D-9FC3-4CAD-1889-EED2328B4138"/>
+<colUsage columnID="CF8AE66C-4F15-D55A-40A7-0B943DEDD1B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94E5931E-57CA-4A46-82AD-69D53E5C2028" name="pogibije_ovci_fact_Ovca_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:04:40 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FE49A3B-C02B-9A7C-1524-DF1EB8C7AB29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF49CE1C-5464-1E37-048C-938A00ACDE39" name="pogibije_ovci_fact_Datum_i_vremeje_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:04:44 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDACB5B4-8A8B-F7DF-0968-6E5F52A81721"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE6555D0-0032-A2C3-147C-5428A5180023" name="pogibije_ovci_fact_indijci_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:04:48 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B44F148C-C235-9966-3652-D9FC16329633"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="022D0C20-ECAF-40FA-6F6F-10C2786DB8E2" name="pogibije_ovci_fact_uzrok_smrti_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:04:52 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8F64E8D-9FC3-4CAD-1889-EED2328B4138"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A56470C-D470-27BB-DBB6-1414AEFDBB4F" name="pogibije_ovci_fact_geo_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:04:56 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF8AE66C-4F15-D55A-40A7-0B943DEDD1B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

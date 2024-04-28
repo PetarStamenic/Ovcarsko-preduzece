@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="471AFC46-7E67-CCC3-4372-90C26BB513BA" name="ocenjivanje_pasnjaka">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:49:41 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_50</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ocenjivanja" id="AE28338A-C1B7-AE6A-EFA4-1755A2FD2FDD">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:50:22 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_izvidjanja" id="5FA79BB5-7F9A-C699-4B2C-93C4700B17AB">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:50:22 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_i_vremeje_dim_id_datuma" id="9A9CD08E-97BA-DB7F-5875-64588F354876">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:50:48 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D6A2840-D4C0-F389-8005-C93AF0580EB6" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+<Column name="pasnjak_dimv1_id_pasnjaka" id="B5AD4278-3675-3D92-56A4-1665ABB5260C">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:50:51 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="806505F7-6F02-2658-875F-E0C05760B086" referredColumn="690D174E-7BF9-9223-9C65-9C749A5EAB3B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35C5F3EC-CC2F-2CC0-B42D-83D7C3949E94" name="ocenjivanje_pasnjaka_PK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:50:22 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FA79BB5-7F9A-C699-4B2C-93C4700B17AB"/>
+<colUsage columnID="AE28338A-C1B7-AE6A-EFA4-1755A2FD2FDD"/>
+<colUsage columnID="9A9CD08E-97BA-DB7F-5875-64588F354876"/>
+<colUsage columnID="B5AD4278-3675-3D92-56A4-1665ABB5260C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C5B7164-E45D-B668-FCAB-E5678B9B981E" name="ocenjivanje_pasnjaka_Datum_i_vremeje_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:50:48 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A9CD08E-97BA-DB7F-5875-64588F354876"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D8F7D0F-C930-7C34-7B36-AB7122E385BE" name="ocenjivanje_pasnjaka_pasnjak_dimv1_FK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:50:51 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5AD4278-3675-3D92-56A4-1665ABB5260C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

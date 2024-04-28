@@ -1,0 +1,27 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="B7690B85-5AB5-B51E-ED25-D592C34469B9" name="Relational_1" visible="false"/>
+   <object objectType="sub_view" objectID="B2E437C8-F2B2-F60C-9533-FD7391604779" name="_tables" visible="true"/>
+   <object objectType="sub_view" objectID="4A72CDF3-B24B-142C-7917-76ADD334CD7E" name="aukcija_ovaca" visible="true"/>
+   <object objectType="sub_view" objectID="F063A4D0-F2E2-27D2-7CF3-C09F17C3674C" name="aukcija_vune" visible="true"/>
+   <object objectType="sub_view" objectID="C0C52ED7-E729-3724-A110-5C7E99F09256" name="bioinformatika_za_ovce" visible="true"/>
+   <object objectType="sub_view" objectID="7DBA2572-32FA-C4E4-484D-2002B9B0BEB7" name="centralno_skladiste" visible="true"/>
+   <object objectType="sub_view" objectID="F9776D9F-62D4-D592-044B-E072AA43713B" name="domacinstvo" visible="true"/>
+   <object objectType="sub_view" objectID="5EDD4E8C-A41B-BA45-7F24-7DFD4C1312E8" name="ispasa promeni u 5 shema" visible="true"/>
+   <object objectType="sub_view" objectID="DA47B2DC-79BE-ECD4-2D51-825A00A9A34A" name="itemi_na_aukciji" visible="true"/>
+   <object objectType="sub_view" objectID="E8E9507D-9278-129A-541E-CC5412DA368A" name="izvod_iz_maaaaticna_knjige_rodjenih" visible="true"/>
+   <object objectType="sub_view" objectID="CF010E1A-41BB-485F-F5CC-E15D2D0F3BB3" name="kvalitet_pasnjaka" visible="true"/>
+   <object objectType="sub_view" objectID="BDBA5FAC-3670-EDFE-A153-14CF75E87CA9" name="maloprodajno_skladiste" visible="true"/>
+   <object objectType="sub_view" objectID="D573D76D-193E-FE1A-B9FC-BAFCB0A20743" name="obrada_mlecnih_proizvoda" visible="true"/>
+   <object objectType="sub_view" objectID="5F095DBE-564B-64E6-F411-EA80267409BD" name="obrada_vune" visible="true"/>
+   <object objectType="sub_view" objectID="87131812-1612-D0C8-5039-746A41A047F7" name="otpis_robe" visible="true"/>
+   <object objectType="sub_view" objectID="0AF10B72-6DD7-E764-EFB0-FB7F4EA8880A" name="pogibije" visible="true"/>
+   <object objectType="sub_view" objectID="AA256CBF-9129-02CC-9A14-91346982A77B" name="prehrana" visible="true"/>
+   <object objectType="sub_view" objectID="52E0C872-3F15-B66E-C366-3A848A13D577" name="prodaja" visible="true"/>
+   <object objectType="sub_view" objectID="56508106-E33C-8257-FE62-41B277E89BF9" name="promena_stada" visible="true"/>
+   <object objectType="sub_view" objectID="5B1A7160-045F-FF7D-03FF-3CF192CBCD55" name="spoljasnja_odbrana" visible="true"/>
+   <object objectType="sub_view" objectID="2408EFE8-AE47-9009-0544-7FE8A6B526A3" name="vakcinacija" visible="true"/>
+   <object objectType="sub_view" objectID="34E03808-6E7C-3DCF-3B26-6A949E3CF962" name="vremenski_uslovi" visible="true"/>
+   <object objectType="sub_view" objectID="1175F601-C411-8C84-F8E5-010DA115464D" name="vrste" visible="true"/>
+   <object objectType="sub_view" objectID="12F87F6D-7709-1533-7B49-4B9C4C97E28D" name="zdravstveni_karton" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

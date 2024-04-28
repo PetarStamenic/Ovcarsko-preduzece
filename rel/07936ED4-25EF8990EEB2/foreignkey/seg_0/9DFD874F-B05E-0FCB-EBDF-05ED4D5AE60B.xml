@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9DFD874F-B05E-0FCB-EBDF-05ED4D5AE60B" containerWithKeyObject="E91A08F2-6580-6669-4851-8D22E023DF05" localFKIndex="8B69971A-CBE6-C27F-D7F0-EC1BD54A798A" name="zdravstveni_karton_fact_doktor_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 14:50:37 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<referredTableLongName>doktor_dim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A3F3C0AE-F709-DAE7-72E9-77C8552A6F41</referredTableID>
+<keyObject>B0838CE1-4705-E3A2-D852-66B1224F167B</keyObject>
+<referredKeyID>B0838CE1-4705-E3A2-D852-66B1224F167B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_doktora</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

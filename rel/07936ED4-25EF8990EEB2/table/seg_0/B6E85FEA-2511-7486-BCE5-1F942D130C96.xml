@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6E85FEA-2511-7486-BCE5-1F942D130C96" name="promena_stada_fact">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 14:53:39 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ovca_dim_id_cipa" id="20618F34-8509-216F-125D-4F8D9B88E958">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 14:54:16 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01F68C2B-C087-E1A3-9E01-9DF5BF571165" referredColumn="5AE18D27-F847-9C28-CCDF-291805BD9390"/>
+</associations>
+</Column>
+<Column name="Datum_i_vremeje_dim_id_datuma" id="932D9B2D-48C9-C747-3B75-A0FE5D48EEED">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 14:54:19 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F32E583-B9D8-8D94-596A-1912A5806539" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+<Column name="iz_stada" id="7B528AF8-0C69-44FA-325D-93B6FC573064">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 14:54:22 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="091DEDE8-BFB0-94F7-B106-DF8431A1C7EA" referredColumn="53C9E59F-4049-5C5B-5EB7-ADEC9143A590"/>
+</associations>
+</Column>
+<Column name="u_stado" id="32D65AD1-988D-90F6-59B1-7B2500CCC2B3">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 14:54:25 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CACC3F7-F785-CF68-A0AB-0A41A1349DF6" referredColumn="53C9E59F-4049-5C5B-5EB7-ADEC9143A590"/>
+</associations>
+</Column>
+<Column name="Razlog_promene" id="E1A03794-A27C-3DC9-58B9-C7DEEEC69F6E">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 14:55:00 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="759A4DEB-1ECA-FF45-59F4-4FF0A9363EC9" name="promena_stada_fact_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 14:55:00 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32D65AD1-988D-90F6-59B1-7B2500CCC2B3"/>
+<colUsage columnID="7B528AF8-0C69-44FA-325D-93B6FC573064"/>
+<colUsage columnID="932D9B2D-48C9-C747-3B75-A0FE5D48EEED"/>
+<colUsage columnID="20618F34-8509-216F-125D-4F8D9B88E958"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="327F6889-8308-D63F-BCEB-5DA38C88782C" name="promena_stada_fact_Ovca_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 14:54:16 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20618F34-8509-216F-125D-4F8D9B88E958"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42A36846-C545-C6D2-E8DC-CF80C3C5587C" name="promena_stada_fact_Datum_i_vremeje_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 14:54:19 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="932D9B2D-48C9-C747-3B75-A0FE5D48EEED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF269D9B-54D9-C520-E7DF-B24702CEB1F0" name="promena_stada_fact_stado_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 14:54:22 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B528AF8-0C69-44FA-325D-93B6FC573064"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13A081E7-C830-2178-D6EA-25FADD52A5A9" name="promena_stada_fact_stado_dim_FKv2">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 14:54:25 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32D65AD1-988D-90F6-59B1-7B2500CCC2B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

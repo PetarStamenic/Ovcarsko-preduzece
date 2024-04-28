@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="CA192DA6-33AA-8B67-D894-AD2B795240F7" containerWithKeyObject="43ED6FAF-F7E5-DEDB-715A-C4D0B69838F8" localFKIndex="65AD3CE9-440E-D2FE-58E2-C9C0C40C69A5" name="Ruta_Ruta_FK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-05 15:31:24 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<referredTableLongName>Ruta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>43ED6FAF-F7E5-DEDB-715A-C4D0B69838F8</referredTableID>
+<keyObject>991ADFC3-D51B-A4BF-BF5D-30EA76594C5D</keyObject>
+<referredKeyID>991ADFC3-D51B-A4BF-BF5D-30EA76594C5D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_rute,pasnjak_dimv1_id_pasnjaka,pocetak,geo_dim_id_geo,domacinstvo_dim_domacinstvo_id,kraj</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

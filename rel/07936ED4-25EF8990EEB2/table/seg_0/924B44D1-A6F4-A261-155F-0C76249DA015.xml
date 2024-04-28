@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="924B44D1-A6F4-A261-155F-0C76249DA015" name="geo_dim">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 14:43:21 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_geo" id="26408DA5-B4EC-5739-1C27-46290909954E">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:03:57 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4589A883-92FF-4AEA-C455-5D5C060B6EA1" name="geo_dim_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 15:04:00 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26408DA5-B4EC-5739-1C27-46290909954E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

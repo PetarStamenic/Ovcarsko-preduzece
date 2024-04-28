@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F795DB9-5DE8-2994-8AC8-3173F2DB1E17" name="odgovorni_psi">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:43:23 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_47</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ispase" id="C7B3CFC6-6641-D39B-9228-81E3C57927CB">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:44:25 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_rute" id="49860A8C-186C-C380-E577-D15B2DC3771F">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:44:25 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dogo_dim_id_dogoa" id="27CE1343-860A-3D4B-18D9-165BDCC7785F">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:44:51 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3658DB6F-B3E7-DAE6-83AA-555118BD534B" referredColumn="2B097A8E-1315-06ED-6F7B-39E7B9C9ED50"/>
+</associations>
+</Column>
+<Column name="Datum_i_vremeje_dim_id_datuma" id="BD504F42-8B6D-5092-CC98-7A279CEB066E">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:45:02 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF18DC7B-6E37-CB60-2F54-543DC7BA3627" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+<Column name="Datum_i_vremeje_dim_id_datuma1" id="F954B267-AE8D-3819-C664-86CDCA23C180">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:45:05 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42642090-9794-FEC8-B33C-E2D24147B2E4" referredColumn="73896857-0A28-F5E5-C1DD-9EF0A1DD3C29"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6BD2B575-9D88-26D5-AAE3-30C82AA92ED0" name="odgovorni_psi_PK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:44:25 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7B3CFC6-6641-D39B-9228-81E3C57927CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EFEFB33-7626-CD11-FF26-4889DE4F14C6" name="odgovorni_psi_dogo_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:44:51 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27CE1343-860A-3D4B-18D9-165BDCC7785F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA28D15C-E80D-9C1F-B1EB-6FFE5F7D1C51" name="odgovorni_psi_Datum_i_vremeje_dim_FK">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:45:02 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD504F42-8B6D-5092-CC98-7A279CEB066E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC099590-856C-F778-53D4-202B8256C05B" name="odgovorni_psi_Datum_i_vremeje_dim_FKv2">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:45:05 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F954B267-AE8D-3819-C664-86CDCA23C180"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

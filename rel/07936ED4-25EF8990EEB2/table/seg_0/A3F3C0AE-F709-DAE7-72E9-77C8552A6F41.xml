@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3F3C0AE-F709-DAE7-72E9-77C8552A6F41" name="doktor_dim">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 14:49:01 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_doktora" id="4B6E2F2E-7CAD-5671-9C86-E489FA627050">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 14:49:40 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0838CE1-4705-E3A2-D852-66B1224F167B" name="doktor_dim_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 14:49:40 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B6E2F2E-7CAD-5671-9C86-E489FA627050"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

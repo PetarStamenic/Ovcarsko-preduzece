@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7455C92-FECC-BFAE-4AAD-40DB03BF9B47" name="proizvod_dim">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:27:43 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_29</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_proizvoda" id="EE938E78-DAA8-BF5D-2B0B-B04D88D030D1">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:28:30 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="77AA5A0C-240A-74F6-7497-4E9D97717E99">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:28:30 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kvalitet" id="AE94E8F7-3BC9-9B69-C3B6-0BFE9F2989AC">
+<createdBy>petar</createdBy>
+<createdTime>2024-01-08 08:32:42 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="717534F5-E6E9-D463-5CD1-2DCA517F47C7" name="vuneni_proizvod_dim_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:28:41 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE938E78-DAA8-BF5D-2B0B-B04D88D030D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

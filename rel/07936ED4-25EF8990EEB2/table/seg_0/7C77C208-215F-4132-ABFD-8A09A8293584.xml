@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C77C208-215F-4132-ABFD-8A09A8293584" name="hrana_dim">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:20:46 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_hrane" id="CF648945-9814-6443-12C8-B733F9853822">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:21:25 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="proizvodjac" id="43B8D0D3-F191-71E0-7486-4226D7255CDC">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:21:25 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kvalitet_hrane" id="09E8E7B7-11F9-AB09-A048-183D6FEB555C">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:21:25 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4EB99AD2-E6A8-47E5-0562-C79AD20D2838" name="hrana_dim_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-19 15:21:25 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF648945-9814-6443-12C8-B733F9853822"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
