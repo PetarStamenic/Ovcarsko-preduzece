@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="tabele" id="DED0146F-B25D-1865-185F-901C1F0E40B2" version="3.5">
+<createdBy>petar</createdBy>
+<createdTime>2023-12-12 14:10:06 UTC</createdTime>
+<ownerDesignName>tabele</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DED0146F-B25D-1865-185F-901C1F0E40B2</designId>
+</OSDM_Design>
